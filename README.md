@@ -9,5 +9,5 @@ make -B
 This will compile all the utils one by one.
 
 # License
-Rosebush is licensed under the BSD 3-Clause license.
+Rosebush is licensed under the BSD 3-Clause license.  
 [Read here](LICENSE) for more info.
