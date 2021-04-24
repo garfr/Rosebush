@@ -1,5 +1,4 @@
-BINARIES = false \
-					 true 
+BINARIES = false true yes
 
 all: $(BINARIES)
 
