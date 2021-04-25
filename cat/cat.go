@@ -9,7 +9,8 @@ import (
 )
 
 func main() {
-	// TODO: -u flag
+	// -u seems to be ignored by gnu and busybox, so we'll ignore it also
+	flag.Bool("u", false, "Use unbuffered IO (ignored)")
 
 	flag.Parse()
 	args := flag.Args()
