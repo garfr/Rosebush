@@ -22,8 +22,8 @@ func main() {
 	// POSIX mandates that the last -n flag is the one that is used for all files
 	var n uint64 = 10
 
-	// If there is more than one file to print, you need to add the filenames
 	var filenames []string
+
 	for i := 1; i < len(os.Args); i++ {
 		if os.Args[i] == "-n" {
 			if i + 1 >= len(os.Args) {
@@ -52,6 +52,7 @@ func main() {
 		}
 		print_lines(file, n)
 	} else {
+	  // If there is more than one file to print, you need to add the filenames
 		for i, filename := range filenames {
 			if filename == "-" {
 				if i == 0 {
