@@ -1,9 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+	"strings"
+)
 
 func main() {
+	str := "y"
+
+	if len(os.Args) > 1 {
+		str = strings.Join(os.Args[1:], " ")
+	}
+
 	for {
-		fmt.Println("y")
+		fmt.Println(str)
 	}
 }
