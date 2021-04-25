@@ -24,7 +24,7 @@ func main() {
 		file := args[i]
 		if file == "-" {
 			readStdin(reader)
-			return
+			continue
 		}
 
 		data, err := os.ReadFile(file)
