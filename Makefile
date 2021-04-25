@@ -1,4 +1,4 @@
-BINARIES = false true yes basename
+BINARIES = false true yes basename cat
 
 all: $(BINARIES)
 

@@ -1,5 +1,5 @@
 # Rosebush
-GNU coreutils remade in Go for RosetteOS 
+GNU and POSIX coreutils remade in Go for RosetteOS 
 
 # Build
 To compile the Rosebush, simply  
