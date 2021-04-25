@@ -1,4 +1,4 @@
-BINARIES = false true yes
+BINARIES = false true yes basename
 
 all: $(BINARIES)
 
