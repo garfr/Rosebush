@@ -8,7 +8,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("\033[31mbasename\033[0m: missing operand\n")
+		fmt.Println("\033[31mbasename\033[0m: missing operand")
 		os.Exit(1)
 	}
 
