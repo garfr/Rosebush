@@ -13,5 +13,5 @@ func main() {
 	}
 
 	res := strings.Split(os.Args[1], "/")
-	fmt.Println(res[len(res)-1])
+	fmt.Println(res[len(res) - 1])
 }
